@@ -1,6 +1,6 @@
 services:
   api:
-    build: .
+    image: quychinh2004/week3-api:latest
     ports:
       - "8000:8000"
     environment:
